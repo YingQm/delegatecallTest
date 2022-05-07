@@ -1,4 +1,7 @@
 # delegatecallTest
 
-1
+```shell
+Connect to localhost
+remixd -s /home/ubuntu/go/src/github.com/YingQm/delegatecallTest -u https://remix.ethereum.org
+```
 
