@@ -26,7 +26,7 @@ contract compare {
         keccak256("test()")
     );
 
-    function withcall()public{
+    function withcall() public {
         // "args": {
         // 	"0": "in test",
         // 	"1": "0x565BD1C5C443BC2F1C2aE6Fe06Ed0ee1ef08141D", // calltest 合约地址
@@ -36,7 +36,7 @@ contract compare {
         address(testaddress).call(abi.encodeWithSelector(TEST_SELECTOR));
     }
 
-    function withdelegatecall()public{
+    function withdelegatecall() public {
         // "args": {
         // 	"0": "in test",
         // 	"1": "0x9DD41ECd6e1701CE34523ed98423c1eFb0805aBD"， // compare 合约地址
