@@ -24,11 +24,11 @@ contract compare {
         keccak256("test()")
     );
 
-    function withcall() public {
+    function withcall()public{
         address(testaddress).call(abi.encodeWithSelector(TEST_SELECTOR));
     }
 
-    function withdelegatecall() public {
+    function withdelegatecall()public{
         address(testaddress).delegatecall(abi.encodeWithSelector(TEST_SELECTOR));
     }
 }
